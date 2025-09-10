@@ -1,0 +1,7 @@
+defaults:
+  train_test_split: 0.8
+  lookback_window: 60
+  forecast_horizon: 1
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
