@@ -55,6 +55,7 @@ if __name__ == "__main__":
     parser.add_argument("--period", type=str, default="5y")
     parser.add_argument("--interval", type=str, default="1d")
     args = parser.parse_args()
+    #what is this
 
     if args.source == "yfinance":
         df = fetch_yfinance(args.symbol, period=args.period, interval=args.interval)
